@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 	driverList.add(new Driver("Halo","Zsolt","06302595980"));
 	driverList.add(new Driver("Kovacs","Geza","0633262266"));
 	driverList.add(new Driver("Balogh","Ferike","734734780"));
-	driverList.add(new Driver("Alexa","Mark","2747247472"));
+	driverList.add(new Driver("Alexa","Mark"));
 	
 	/*CREATING JSON*/
 	

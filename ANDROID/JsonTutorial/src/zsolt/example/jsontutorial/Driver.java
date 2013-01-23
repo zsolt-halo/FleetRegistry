@@ -15,6 +15,13 @@ public class Driver {
 		ID = iD;
 	}
 	
+	public Driver(String firstName, String lastName) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.phoneNumber = phoneNumber;
+	}
+	
 	public Driver(String firstName, String lastName, String phoneNumber) {
 		super();
 		this.firstName = firstName;
