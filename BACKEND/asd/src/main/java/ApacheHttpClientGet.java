@@ -12,25 +12,13 @@ public class ApacheHttpClientGet {
 	public static void main(String[] args) {
 		try {
 			HttpClient client = new HttpClient();
-			GetMethod method = new GetMethod("http://testerg.cloudfoundry.com/driver/6");
-			
+			GetMethod method = new GetMethod("http://testerg.cloudfoundry.com/driver/");
+			/*
 			Gson gs = new Gson();
-			Driver d = new Driver("Alexa", "Márk", "12843514");
-			String par = gs.toJson(d);
-			//method.setQueryString("js=" + par);
+			Driver d = new Driver("Alexa", "Mçrk", "12843514");
+			String par = gs.toJson(d);*/
 			int statusCode = client.executeMethod(method);
 			System.out.println(method.getResponseBodyAsString());
-			//int statusCode = client.executeMethod(method);
-			
-//			BufferedReader br = new BufferedReader(new InputStreamReader(
-//					(response.getEntity().getContent())));
-//
-//			String output;
-//			System.out.println("Output from Server .... \n");
-//			while ((output = br.readLine()) != null) {
-//
-//				System.out.println(output);
-//			}
 
 
 		} catch (ClientProtocolException e) {
