@@ -1,5 +1,7 @@
 package com.fleetregistry.main;
 
+import com.fleetregistry.vehicles.VehiclesActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -54,7 +56,7 @@ public class MenuActivity extends Activity {
 					MenuActivity.this.startActivity(intent);
 					break;
 				case 4:
-					intent = new Intent(MenuActivity.this, CarsActivity.class);
+					intent = new Intent(MenuActivity.this, VehiclesActivity.class);
 					MenuActivity.this.startActivity(intent);
 					break;
 				case 5:

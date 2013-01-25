@@ -4,6 +4,9 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="/Users/hallgato5/Documents/workspace/FleetRegistry/FleetRegistry/ANDROID/FleetProject/libs"/>
+=======
+>>>>>>> 67a60ae1645f874adc9dd1fab705429278647c6d
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
