@@ -37,8 +37,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_partners=0x7f030004;
         public static final int activity_profil=0x7f030005;
         public static final int activity_stations=0x7f030006;
-        public static final int activity_works=0x7f030007;
-        public static final int menu_fragment=0x7f030008;
+        public static final int activity_vehicles=0x7f030007;
+        public static final int activity_works=0x7f030008;
+        public static final int menu_fragment=0x7f030009;
     }
     public static final class menu {
         public static final int activity_admins=0x7f070000;
@@ -48,7 +49,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_partners=0x7f070004;
         public static final int activity_profil=0x7f070005;
         public static final int activity_stations=0x7f070006;
-        public static final int activity_works=0x7f070007;
+        public static final int activity_vehicles=0x7f070007;
+        public static final int activity_works=0x7f070008;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
